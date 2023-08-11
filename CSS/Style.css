@@ -1,0 +1,13 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    direction: rtl;
+}
+@font-face {
+    font-family: "iransans";
+    src: url(../Fonts/iransans/IRANSansWeb-FaNum.eot);
+    src: url(../Fonts/iransans/IRANSansWeb-FaNum.ttf);
+    src: url(../Fonts/iransans/IRANSansWeb-FaNum.woff);
+    src: url(../Fonts/iransans/IRANSansWeb-FaNum.woff2);
+}
