@@ -11,3 +11,16 @@
     src: url(../Fonts/iransans/IRANSansWeb-FaNum.woff);
     src: url(../Fonts/iransans/IRANSansWeb-FaNum.woff2);
 }
+body{
+    font-family: iransans;
+}
+.topNavFontSize{
+    font-weight:bold;
+    font-size: 11px;
+}
+.nav-item{
+    margin: 0 4px;
+}
+.miniBar{
+    margin-right:0 10px;
+}
