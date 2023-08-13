@@ -2,47 +2,71 @@
 <html>
 <head>
     <meta charset="UTF-8">
+    <title>Saatchi</title>
     <meta keywords="خرید آنلاین طلا">
     <meta description="بررسی و انتخاب و خرید طلا بضورا آنلاین از گالری ساعتچی">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/css_bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link rel="stylesheet" href="CSS/Style.css">
-    <title>Saatchi</title>
 </head>
 <body>
     <div class="container-fluid p-0">
         <div class="header">
 
-            <!--MIN NAV BAR-->
+            <!--MINI NAV BAR-->
             
             <div class="row align-items-center justify-content-between">
-                <div class="col-1 d-lg-none miniBar">
+                <div class="col-6 d-lg-none  d-flex align-items-center miniBar">
                     <button class="btn " type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasWithBothOptions" aria-controls="offcanvasWithBothOptions">
                         <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
                             <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
                         </svg>
                     </button>
-                    <div class="offcanvas offcanvas-start" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
+                    <div class="offcanvas offcanvas-start bg-light" data-bs-scroll="true" tabindex="-1" id="offcanvasWithBothOptions" aria-labelledby="offcanvasWithBothOptionsLabel">
                         <div class="offcanvas-header">
-                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">Backdrop with scrolling</h5>
+                            <h5 class="offcanvas-title" id="offcanvasWithBothOptionsLabel">فروشگاه اینترنتی ساعتچی</h5>
                             <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
                         </div>
-                        <div class="offcanvas-body">
-                            <p>Try scrolling the rest of the page to see this option in action.</p>
+                        <div class="d-flex flex-column justify-content-center align-items-center">
+                            <img src="Images/logo-l.png" alt="ساعتچی">
+                            <img src="Images/Screenshot 2023-08-13 203417.png" alt="menu">
+                        </div>
+                        <div class="offcanvas-body d-flex flex-column justify-content-center align-items-strech">
+                            <div class="list-group">
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                                <a href="#" class="list-group-item list-group-item-action list-group-item-light">A simple light list group item</a>
+                            </div>
+                            <p></p>
+
                         </div>
                     </div>
-                </div>
-                <div class="col d-lg-none">
                     <a class="nav-link text-body-tertiary"><b> فروشگاه اینترنتی ساعتچی </b></a>
                 </div>
-                <div class="col-2 d-lg-none">
-                    <img src="Images/logo-l.png" alt="ساعتچی">
+                <div class="col-6 d-lg-none">
+                    <div class="text-end">
+                        <img  src="Images/logo-l.png" alt="ساعتچی">
+                    </div>
                 </div>
             </div>
 
             <!--TOP NAV BAR-->
 
-            <nav class="navbar d-none d-lg-block navbar-expand-lg bg-body-tertiary">
+            <nav class="topNavBar navbar d-none d-lg-block navbar-expand-lg bg-body-tertiary">
                 <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
                     <ul class="navbar-nav topNavFontSize">
                         <li class="nav-item">
@@ -95,10 +119,82 @@
             <!--MID NAV BAR-->
 
             
+            <div class="midNavBar row d-flex align-items-center justify-content-center mt-2">
+                <div class="col-xxl-3 col-xl-4 col-lg-4 d-flex align-items-center d-none d-lg-flex">
+                    <div class="p-3">
+                        <a href="#"><img  src="Images/logo.png" alt="saaatchi" style="width: 70px;"></a>
+                    </div>
+                    <div class="text-center">
+                        <a class="text-body-emphasis text-decoration-none" href="#"><h3><small>فروشگاه اینترنتی ساعتچی</small></h3></a>
+                        <a class="text-body-tertiary text-decoration-none" href="#">خرید آنلاین طلا، بررسی و انتخاب</a>
+                    </div>
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-7 col-6">
+                    <div class="searchBar d-flex align-items-center">
+                        <input class="searchInput" type="search" placeholder="نام و یا دسته محصول مورد نظر را جستجو کنید...">
+                        <div><a class="text-body-emphasis text-decoration-none" href="#">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                                <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+                            </svg>
+                            </a>
+                        </div> 
+                    </div>    
+                </div>
+                <div class="col-xxl-3 col-xl-4 col-lg-4 col-md-5 col-sm-4 col-5">
+                    <div class="d-flex justify-content-around">
+                        <a class="text-decoration-none text-danger d-none d-lg-block " href="#"> <i class="bi bi-suit-heart-fill"></i> علاقمندی ها</a>
+                        <a class="text-decoration-none text-danger  d-md-block d-lg-none" href="#"><i class="bi bi-suit-heart-fill"></i></a>
+                        <a  class="text-decoration-none text-secondary d-none d-lg-block" href="#"><i class="bi bi-person-fill"></i> ورود/ ثبت نام</a>
+                        <a class="text-decoration-none text-secondary  d-md-block d-lg-none" href="#"><i class="bi bi-person-fill"></i></a>
+                        <a class="text-decoration-none text-secondary d-none d-lg-block" href="#">سبد خرید <i class="bi bi-bag-fill"></i> </a>
+                        <a class="text-decoration-none text-secondary  d-md-block d-lg-none" href="#"><i class="bi bi-bag-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            
             <!--BOTTOM NAV BAR-->
 
-            
+            <nav class="navbar  d-none d-lg-block navbar-expand-lg ">
+                <div class="collapse navbar-collapse justify-content-center bg-secondary">
+                    <ul class="navbar-nav bottomNavFontSize">
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">ست و نیم ست</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">گردنبند طلا زنانه</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class=" bNavLink nav-link text-light" href="#">گوشواره</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">انگشتر</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">دستبند</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">پابند</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">آویز ساعت</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">طلای کودک</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">گالری آقایان</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="bNavLink nav-link text-light" href="#">برند ها</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
+
+        <!--Silde Section-->
+
+    </div>
     <script src="JS/js_bootstrap.bundle.min.js"></script>
     <script src="JS/Script.js"></script>
 </body>

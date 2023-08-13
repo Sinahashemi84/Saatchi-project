@@ -16,11 +16,48 @@ body{
 }
 .topNavFontSize{
     font-weight:bold;
-    font-size: 11px;
+    font-size: 10px;
+}
+.bottomNavFontSize{
+    font-size: 14px;
+}
+.topNavBar{
+    height: 40px;
+}
+.midNavBar{
+    font-size: 0.9rem;
+}
+.midNavBar h3{
+    font-size: 20px;
 }
 .nav-item{
-    margin: 0 4px;
+    margin: 0 5px;
 }
 .miniBar{
     margin-right:0 10px;
+}
+.searchBar{
+    width: 340px;
+    background: rgb(240, 240, 240);
+    border: 1px solid rgb(179, 179, 179);
+    border-radius: 3px;
+}
+.searchInput{
+    border: none;
+    width: 90%;
+    background: rgb(240, 240, 240);
+    font-size: 13px;
+    padding: 13px 10px 13px 40px;
+    outline: none;
+}
+@media screen  and (max-width: 576px){
+    .searchBar{
+        max-width: 250px;
+    }
+}
+.bNavLink{
+    border-bottom:3px solid #6c757d;
+}
+.bNavLink:hover{
+    border-bottom: 3px solid white;
 }
