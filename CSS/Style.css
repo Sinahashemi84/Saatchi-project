@@ -61,3 +61,44 @@ body{
 .bNavLink:hover{
     border-bottom: 3px solid white;
 }
+.vImg{
+    width: 250px;
+    border-radius: 10px;
+}
+.sImg{
+    width: 100%;
+}
+@media screen and (max-width: 1400px) and ( min-width: 1200px){
+    .vImg{
+        width: 200px;
+    } 
+}
+@media screen and (max-width: 1199px ) and ( min-width: 992px){
+    .vImg{
+        width: 180px;
+    }  
+}
+@media screen and (max-width: 992px ) and ( min-width: 768px){
+    .vImg{
+        width: 160px;
+    }  
+}
+@media screen and (max-width: 767px ) and ( min-width: 576px){
+    .vImg{
+        width: 140px;
+    }  
+}
+.pNama{
+    font-size: 26px;
+}
+.pNama>span{
+    font-size: 32px;
+    font-weight: bold;
+}
+.buttonSliderBoxS{
+    font-size: 12px;
+}
+.buttonSliderBoxI{
+    font-size: 50px;
+}
+
