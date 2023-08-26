@@ -68,25 +68,9 @@ body{
 .sImg{
     width: 100%;
 }
-@media screen and (max-width: 1400px) and ( min-width: 1200px){
-    .vImg{
-        width: 200px;
-    } 
-}
-@media screen and (max-width: 1199px ) and ( min-width: 992px){
-    .vImg{
-        width: 180px;
-    }  
-}
-@media screen and (max-width: 992px ) and ( min-width: 768px){
-    .vImg{
-        width: 160px;
-    }  
-}
-@media screen and (max-width: 767px ) and ( min-width: 576px){
-    .vImg{
-        width: 140px;
-    }  
+.magImg{
+    width: 420px;
+    height: 250px;
 }
 .pNama{
     font-size: 26px;
@@ -95,10 +79,44 @@ body{
     font-size: 32px;
     font-weight: bold;
 }
-.buttonSliderBoxS{
+.bottomSliderBoxS{
     font-size: 12px;
 }
-.buttonSliderBoxI{
+.bottomSliderBoxI{
     font-size: 50px;
+}
+@media screen and (max-width: 1400px) and ( min-width: 1200px){
+    .vImg{
+        width: 200px;
+    } 
+    .magImg{
+        width: 350px;
+    }
+}
+@media screen and (max-width: 1200px ) and ( min-width: 992px){
+    .vImg{
+        width: 180px;
+    }
+    .magImg{
+        width: 280px;
+    }  
+}
+@media screen and (max-width: 992px ) and ( min-width: 768px){
+    .vImg{
+        width: 160px;
+    }
+    .magImg{
+        width: 300px;
+    }  
+}
+@media screen and (max-width: 767px ) and ( min-width: 576px){
+    .vImg{
+        width: 140px;
+    }  
+}
+@media screen and (max-width: 576px){
+    .vImg{
+        width: 140px;
+    }
 }
 
